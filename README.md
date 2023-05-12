@@ -1,2 +1,0 @@
-# nayangi.github.io
- 
