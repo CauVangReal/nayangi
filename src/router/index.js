@@ -32,7 +32,7 @@ const router = new VueRouter({
       component: () => import('@/layouts/layout-vertical'),
       children: [
         {
-          path: '/home',
+          path: '/',
           name: 'home',
           component: () => import('@/components/pages/HelloWorld'),
           meta: {
