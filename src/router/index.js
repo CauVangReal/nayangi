@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
-  base: '/',
+  base: '',
   scrollBehavior(to, from, savedPosition) {
     if (to.matched.some(m => m.meta.disableScroll)) return
 
